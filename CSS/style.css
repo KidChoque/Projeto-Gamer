@@ -1,0 +1,35 @@
+
+/* Imports das fonts */
+
+@font-face {
+    font-family: TitiliumWeb-Black;
+    src: url(../ASSETS/FONTS/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../ASSETS/FONTS/Quicksand/static/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../ASSETS/FONTS/Inter/static/Inter-Regular.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+body {
+    background-color: bisque;
+}
+
+  /* Mobile First */
+
+  h1 {
+      font-family: "TitiliumWeb-Black";
+  }
